@@ -288,7 +288,7 @@ void check_timer(){
     qtout.flush();
 }
 
-// run_testcase() will launch all engine in the list to run the destinated JS script
+// run_testcase() will launch the QJSEngine to run the destinated JS script
 void run_testcase(){
     QQTestcase* testcase;
     QString* currentScript;
