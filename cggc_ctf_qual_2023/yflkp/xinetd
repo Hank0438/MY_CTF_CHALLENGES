@@ -1,0 +1,11 @@
+service yflkp
+{
+    disable = no
+    type = UNLISTED
+    socket_type = stream
+    protocol = tcp
+    port = 31337
+    wait = no
+    user = user
+    server = /home/user/run.sh
+}

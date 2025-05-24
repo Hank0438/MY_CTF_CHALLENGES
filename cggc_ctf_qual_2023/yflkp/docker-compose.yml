@@ -1,0 +1,8 @@
+version: "3"
+services:
+  rose:
+    build: .
+    ports:
+      - "31337:31337"
+    expose:
+      - "31337"

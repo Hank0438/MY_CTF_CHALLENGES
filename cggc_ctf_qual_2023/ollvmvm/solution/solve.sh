@@ -1,0 +1,1 @@
+python deflat.py -f samples/TestProgram_fla -s 0 -o samples/dump
