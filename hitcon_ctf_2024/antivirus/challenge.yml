@@ -1,0 +1,11 @@
+challenge_name: AntiVirus
+name: rev_antivirus
+description: |
+  It seems to be hard to reverse-engineer the anti-virus signature??? 
+flag: hitcon{secret_unpacker_in_clamav_bytecode_signature}
+author: hank_chen
+category: rev
+attachment: ./dist
+
+ports: # TCP ports to expose
+  - 80

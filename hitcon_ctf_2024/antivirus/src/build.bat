@@ -1,0 +1,1 @@
+"C:\Program Files\NASM\nasm.exe" -f bin -o print_flag.exe -l print_flag.lst print_flag.asm
