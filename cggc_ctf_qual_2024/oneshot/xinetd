@@ -1,0 +1,11 @@
+service oneshot
+{
+    disable = no
+    type = UNLISTED
+    socket_type = stream
+    protocol = tcp
+    port = 1337
+    wait = no
+    user = oneshot
+    server = /home/oneshot/run.sh
+}

@@ -1,0 +1,11 @@
+service magic_lamp
+{
+    disable = no
+    type = UNLISTED
+    socket_type = stream
+    protocol = tcp
+    port = 23493
+    wait = no
+    user = user
+    server = /home/user/server.py
+}
